@@ -15,7 +15,6 @@ env:
 
   # github access token
   GIST_PAT: ${{ secrets.GIST_PAT }}
-    echo "$GIST_PAT"
   # github username and gist id, separated by '/'
   GIST_LINK: ${{ secrets.GIST_LINK }}
 
